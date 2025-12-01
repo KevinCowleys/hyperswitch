@@ -112,7 +112,7 @@ impl ConnectorCommon for Yoco {
     }
 
     fn base_url<'a>(&self, connectors: &'a Connectors) -> &'a str {
-        connectors.yoco.secondary_base_url.as_ref()
+        connectors.yoco.base_url.as_ref()
     }
 
     fn get_auth_header(
