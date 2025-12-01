@@ -562,6 +562,10 @@ impl ConnectorAuthTypeAndMetadataValidation<'_> {
                 xendit::transformers::XenditAuthType::try_from(self.auth_type)?;
                 Ok(())
             }
+            api_enums::Connector::Yoco => {
+                yoco::transformers::YocoAuthType::try_from(self.auth_type)?;
+                Ok(())
+            }
             api_enums::Connector::Zen => {
                 zen::transformers::ZenAuthType::try_from(self.auth_type)?;
                 Ok(())

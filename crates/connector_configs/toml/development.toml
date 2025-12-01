@@ -7667,3 +7667,9 @@ api_key = "API Key"
   api_key="Username"
   key1="Password"
   api_secret="Vault Id"
+
+[yoco]
+[[yoco.card_redirect]]
+  payment_method_type = "card_redirect"
+[yoco.connector_auth.HeaderKey]
+api_key = "API Key"

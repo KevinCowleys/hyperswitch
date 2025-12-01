@@ -49,5 +49,5 @@ pub use hyperswitch_connectors::connectors::{
     wellsfargo, wellsfargo::Wellsfargo, wellsfargopayout, wellsfargopayout::Wellsfargopayout, wise,
     wise::Wise, worldline, worldline::Worldline, worldpay, worldpay::Worldpay, worldpayvantiv,
     worldpayvantiv::Worldpayvantiv, worldpayxml, worldpayxml::Worldpayxml, xendit, xendit::Xendit,
-    zen, zen::Zen, zift, zift::Zift, zsl, zsl::Zsl,
+    yoco, yoco::Yoco, zen, zen::Zen, zift, zift::Zift, zsl, zsl::Zsl,
 };

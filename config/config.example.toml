@@ -332,6 +332,8 @@ worldpayvantiv.secondary_base_url = "https://onlinessr.vantivprelive.com"
 worldpayvantiv.third_base_url = "https://services.vantivprelive.com"
 worldpayxml.base_url = "https://secure-test.worldpay.com/jsp/merchant/xml/paymentService.jsp"
 xendit.base_url = "https://api.xendit.co"
+yoco.base_url = "https://api.yocosandbox.com"
+yoco.secondary_base_url = "https://payments.yoco.com/api/checkouts"
 zift.base_url = "https://sandbox-secure.zift.io/"
 zsl.base_url = "https://api.sitoffalb.net/"
 zen.base_url = "https://api.zen-test.com/"
@@ -974,6 +976,9 @@ apple_pay = { currency = "USD, CAD" }
 
 [pm_filters.payjustnow]
 payjustnow = { country = "ZA", currency = "ZAR" }
+
+[pm_filters.yoco]
+card_redirect = { currency = "ZAR" }
 
 [connector_customer]
 payout_connector_list = "nomupay,stripe,wise"

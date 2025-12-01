@@ -170,6 +170,8 @@ worldpayvantiv.secondary_base_url = "https://onlinessr.vantivcnp.com"
 worldpayvantiv.third_base_url = "https://services.vantivprelive.com" # pre-live environment
 worldpayxml.base_url = "https://secure.worldpay.com/jsp/merchant/xml/paymentService.jsp"
 xendit.base_url = "https://api.xendit.co"
+yoco.base_url = "https://api.yoco.com"
+yoco.secondary_base_url = "https://payments.yoco.com/api/checkouts"
 zift.base_url = "https://secure.zift.io/"
 zen.base_url = "https://api.zen.com/"
 zen.secondary_base_url = "https://secure.zen.com/"
@@ -859,6 +861,9 @@ apple_pay = {country = "AF,AX,AL,DZ,AS,AD,AO,AI,AQ,AG,AR,AM,AW,AU,AT,AZ,BS,BH,BD
 
 [pm_filters.payjustnow]
 payjustnow = { country = "ZA", currency = "ZAR" }
+
+[pm_filters.yoco]
+card_redirect = { currency = "ZAR" }
 
 [payout_method_filters.adyenplatform]
 sepa = { country = "AT,BE,CH,CZ,DE,EE,ES,FI,FR,GB,HU,IE,IT,LT,LV,NL,NO,PL,PT,SE,SK", currency = "EUR,CZK,DKK,HUF,NOK,PLN,SEK,GBP,CHF,CAD,JPY" }

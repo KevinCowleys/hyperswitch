@@ -371,6 +371,7 @@ pub struct ConnectorConfig {
     #[cfg(feature = "payouts")]
     pub worldpayxml_payout: Option<ConnectorTomlConfig>,
     pub xendit: Option<ConnectorTomlConfig>,
+    pub yoco: Option<ConnectorTomlConfig>,
     pub zift: Option<ConnectorTomlConfig>,
     pub square: Option<ConnectorTomlConfig>,
     pub stax: Option<ConnectorTomlConfig>,
@@ -622,6 +623,7 @@ impl ConnectorConfig {
             Connector::Zift => Ok(connector_data.zift),
             Connector::Phonepe => Ok(connector_data.phonepe),
             Connector::Payjustnow => Ok(connector_data.payjustnow),
+            Connector::Yoco => Ok(connector_data.yoco),
         }
     }
 }

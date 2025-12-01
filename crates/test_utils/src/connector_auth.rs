@@ -143,6 +143,7 @@ pub struct ConnectorAuthentication {
     pub worldpayvantiv: Option<HeaderKey>,
     pub worldpayxml: Option<HeaderKey>,
     pub xendit: Option<HeaderKey>,
+    pub yoco: Option<HeaderKey>,
     pub zift: Option<HeaderKey>,
     pub worldline: Option<SignatureKey>,
     pub zen: Option<HeaderKey>,
